@@ -1,3 +1,3 @@
 # instapy-scripts
 
-Some scripts for instapy
+Some useful scripts for instapy
