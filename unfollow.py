@@ -1,6 +1,6 @@
 # imports
-from module.instapy import InstaPy
-from module.instapy import smart_run
+from instapy import InstaPy
+from instapy import smart_run
 
 # login credentials
 insta_username = ''
@@ -10,7 +10,8 @@ insta_password = ''
 # set headless_browser=True to run InstaPy in the background
 session = InstaPy(username=insta_username,
                   password=insta_password,
-                  headless_browser=True)
+                  headless_browser=True,
+			  geckodriver_path='/root/geckodriver')
 
 with smart_run(session):
     """ Activity flow """
