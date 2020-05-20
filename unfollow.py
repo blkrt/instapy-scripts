@@ -3,8 +3,8 @@ from module.instapy import InstaPy
 from module.instapy import smart_run
 
 # login credentials
-insta_username = 'viraldoni'
-insta_password = '#@program'
+insta_username = ''
+insta_password = ''
 
 # get an InstaPy session!
 # set headless_browser=True to run InstaPy in the background
